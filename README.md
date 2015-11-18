@@ -11,7 +11,11 @@ Hopefully it can help somebody else progress faster :)
 The graphics are handled in python, and the logic is handled in Haskell
 This immitates a real-world project, but with a trivial example (Tic Tac Toe)
 
+Compiling will also create certain extraneous files, such as main.hi, main.o, and main_stub.h
+These are related to running main.hs as a program, or in the case of main_stub.h, 
+calling the code from an intermediate c layer. 
 
+All of these can be deleted safely
 
 # How to run
 
